@@ -6,7 +6,7 @@
   
   .menu-container {
     color: #fff;
-    background-color: #5995DA;  /* Blue */
+    /* background-color: #5995DA;   */
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -14,7 +14,9 @@
   
   .menu {
     /* border: 1px solid #fff;  For debugging */
+    background-color: #5995DA;  
     width: 900px;
+    padding: 1em;
     display: flex;
     justify-content: space-between;
   }
@@ -31,26 +33,28 @@
 
   .header-container {
     color: #5995DA;
-    background-color: #D6E9FE;
+    /* background-color: #D6E9FE; */
     /* border: 1px dashed black; */
     display: flex;
     justify-content: center;
   }
   
   .header {
+    background-color: #D6E9FE;
     width: 900px;
     height: 300px;
     /* border: 1px dashed black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
-/* .social,
-.logo,
+.social,
 .subscribe {
-  border: 1px solid #5995DA;
-} */
+  border: 1px dashed black;
+  align-self: center;
+  margin-bottom: 1em;
+}
 
 .photo-grid-container {
     display: flex;
