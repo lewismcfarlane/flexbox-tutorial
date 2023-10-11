@@ -16,7 +16,7 @@
     /* border: 1px solid #fff;  For debugging */
     width: 900px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .links {
@@ -42,7 +42,7 @@
     height: 300px;
     /* border: 1px dashed black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
