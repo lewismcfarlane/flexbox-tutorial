@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   .menu-container {
     color: #fff;
     /* background-color: #5995DA;   */
@@ -19,12 +18,6 @@
     padding: 1em;
     display: flex;
     justify-content: space-between;
-  }
-
-  .links {
-    /* border: 1px solid #fff; For debugging */
-    display: flex;
-    justify-content: flex-end;
   }
 
   .login {
@@ -86,4 +79,15 @@
     background-color: #D6E9FE;
     height: 200px;
     flex: 1;
+  }
+
+  .footer-one,
+  .footer-three {
+    flex: initial;
+    width: 300px;
+    background-color: #5995DA;
+  }
+
+  .signup {
+    margin-left: auto;
   }
